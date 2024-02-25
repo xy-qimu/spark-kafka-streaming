@@ -36,6 +36,9 @@ spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.0 spark_s
 5）等待spark应用启动完毕后, 进入mysql容器, 模拟数据生成并实时观察spark的执行结果
 ```shell
 docker exec -it mysql-master bash -c 'mysql -u root -pdebezium inventory'
+
 INSERT INTO customers VALUES (default,'abc','999','abc@example.com');
+INSERT INTO customers VALUES (default,'abc','888','abcd@example.com');
+INSERT INTO customers VALUES (default,'abc','666','abcde@example.com');
 ```
 
