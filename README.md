@@ -16,7 +16,7 @@ Overview
 
 1）clone项目代码到本地, 创建并激活虚拟环境 `venv`, 安装项目依赖
 ```shell
-git clone https://github.com/xy-qimu/spark_struct-stream-kafka.git 
+git clone https://github.com/xy-qimu/spark-kafka-streaming.git 
 pip install -r requirements.txt
 ```
 2）启动docker容器服务： <font color=red>docker compose up -d</font>  
